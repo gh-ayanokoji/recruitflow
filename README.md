@@ -8,6 +8,7 @@ RecruitFlow replaces a folder of Python terminal menus and flat CSV files with o
 ![React](https://img.shields.io/badge/react-18-61dafb)
 ![Vite](https://img.shields.io/badge/vite-5-646cff)
 ![Express](https://img.shields.io/badge/express-4-000000)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 
@@ -186,3 +187,7 @@ No build step is needed for the server; the browser bundle is produced by Vite i
 | `npm run dev` | Server + Vite middleware with HMR |
 | `npm run build` | Production bundle into `dist/` |
 | `npm start` | Serve `dist/` and the API from one process |
+
+## License
+
+Released under the [MIT License](LICENSE).
