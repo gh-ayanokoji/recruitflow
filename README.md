@@ -23,6 +23,34 @@ RecruitFlow replaces a folder of Python terminal menus and flat CSV files with o
 | **Reply sync** | Read-only IMAP scan over a configurable window, matching senders against the contact database and recording replies against the originating message. |
 | **Premium analytics** | Reply rate, funnel, keyword signals and a standalone dark-theme HTML report you can attach to a client update. |
 
+## Screenshots
+
+**Overview** — pipeline KPIs, 14-day dispatch chart, funnel and per-candidate performance.
+
+![Overview screen](docs/images/overview.png)
+
+**Scrape pipeline** — generated LinkedIn queries, filter verdict badges (`US`, `No Bench`, `Domain`) and the audit trail of rejected posts.
+
+![Scrape pipeline screen](docs/images/pipeline.png)
+
+**Resume studio** — JD keyword coverage next to the formatting-preserving rewrite, with DOCX export.
+
+![Resume studio screen](docs/images/resume.png)
+
+**Send queue** — per-recruiter personalisation, hook keywords, test/live switch and the message-ID history that drives threading.
+
+![Send queue screen](docs/images/outreach.png)
+
+**Follow-ups** — due nudges with the `In-Reply-To` header that keeps each send in the original thread.
+
+![Follow-ups screen](docs/images/followups.png)
+
+**Analytics** — reply rate, candidate comparison, keyword signals and the downloadable HTML report.
+
+![Analytics screen](docs/images/analytics.png)
+
+All screenshots use the bundled demo dataset, so the numbers match a fresh `npm install && npm run dev`.
+
 ## Screens
 
 | Screen | Purpose |
@@ -139,6 +167,7 @@ No build step is needed for the server; the browser bundle is produced by Vite i
 - `data/db.json` — clients, recruiters, outreach history, replies and scrape runs (git-ignored).
 - `data/settings.json` — credentials and limits (git-ignored).
 - `clients/*.txt` — resume sources, committed as seed content.
+- `docs/images/*.png` — screenshots used by this README.
 - `session.json` — Playwright storage state for LinkedIn, when you supply one (git-ignored).
 
 `recruiters.csv` keeps `recruiter_name,recruiter_email,role,post_url,job_description,email_sent_status,timestamp`; `email_sent_history.csv` adds `subject,message_id,followup_count,last_followup_at,replied`. Both were the interchange format of the original scripts, so existing spreadsheets still open.
