@@ -1,0 +1,35 @@
+PRIYA NAIR
+React Developer | Chicago, IL
++1 (312) 555-0117 | priya.nair@example.com | linkedin.com/in/priya-nair
+Work Authorization: US Citizen | Availability: Immediate | Relocation: Yes
+
+PROFESSIONAL SUMMARY
+Frontend engineer with 5+ years shipping accessible, fast product interfaces for fintech and
+marketplace teams. Equally at home in design reviews, profiling flame charts, and writing the
+component library other teams depend on.
+
+TECHNICAL SKILLS
+Languages: TypeScript, JavaScript, HTML5, CSS3
+Frameworks: React 18, Next.js, Redux Toolkit, Node.js
+Data: GraphQL, REST APIs
+Tooling: Jest, Cypress, Storybook, AWS Amplify
+Practices: accessibility, performance budgets, design systems, CI/CD
+
+PROJECT EXPERIENCE
+Wealth Dashboard
+Northern Trust | 2022 - Present
+Led a React and TypeScript rewrite of the advisor dashboard used by 4,800 advisors.
+Cut Largest Contentful Paint from 4.1s to 1.3s through route-level code splitting and cache strategy.
+
+Marketplace Checkout
+Rever | 2020 - 2022
+Built a Next.js checkout with Redux Toolkit state and GraphQL data loading.
+Raised mobile conversion 11% with an accessible three-step flow.
+
+Design System
+Koch Industries | 2019 - 2020
+Shipped a Storybook component library adopted by seven product teams.
+Added Jest and Cypress coverage gates to the release pipeline.
+
+EDUCATION
+B.S. Information Systems, DePaul University | 2019

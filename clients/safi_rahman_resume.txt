@@ -1,0 +1,38 @@
+SAFI RAHMAN
+Java Developer | Dallas, TX
++1 (469) 555-0142 | safi.rahman@example.com | linkedin.com/in/safi-rahman
+Work Authorization: H1B (transfer ready) | Availability: Immediate | Relocation: Yes
+
+PROFESSIONAL SUMMARY
+Java developer with 8+ years building distributed, event-driven backend systems for insurance and
+banking clients. Owns services end to end, from API contract to production observability. Known for
+taking legacy monoliths apart without breaking the business.
+
+TECHNICAL SKILLS
+Languages: Java 17, SQL, JavaScript
+Frameworks: Spring Boot, Spring MVC, Hibernate, JUnit, Mockito
+Cloud & Data: AWS (EC2, S3, Lambda), PostgreSQL, Oracle, Redis
+Platform: Kafka, Docker, Kubernetes, Jenkins, Git
+Practices: Microservices, REST APIs, Agile, CI/CD, observability
+
+PROJECT EXPERIENCE
+Claims Processing Platform
+Nationwide Insurance | 2022 - Present
+Rebuilt the claims intake service as twelve Spring Boot microservices, cutting claim setup time from
+6 minutes to 40 seconds.
+Published 2.4M claim events per day through Kafka with idempotent consumers and replay-safe offsets.
+Migrated 180 Oracle tables to PostgreSQL with zero downtime using logical replication.
+
+Policy Rating Engine
+Regions Bank | 2019 - 2022
+Designed a rules-driven rating API processing 90K quotes per hour on AWS with autoscaling ECS tasks.
+Introduced JUnit and Mockito suites that raised coverage from 41% to 86%.
+Automated blue/green deploys with Jenkins and Docker images kept under 90MB.
+
+Agent Portal APIs
+Deloitte | 2017 - 2019
+Built REST APIs for a 22,000-agent portal on Spring MVC and Oracle.
+Reduced p95 response time by 62% through query tuning and a Redis read cache.
+
+EDUCATION
+B.S. Computer Science, University of Texas at Dallas | 2016

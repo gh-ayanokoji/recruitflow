@@ -1,0 +1,36 @@
+TANUJA IYER
+Data Scientist | Austin, TX
++1 (512) 555-0188 | tanuja.iyer@example.com | linkedin.com/in/tanuja-iyer
+Work Authorization: Green Card | Availability: 2 Weeks | Relocation: Open to remote
+
+PROFESSIONAL SUMMARY
+Data scientist with 6+ years turning messy operational data into production models and decision
+tools for healthcare and retail teams. Comfortable owning the whole path from warehouse tables to a
+scored endpoint a business team actually trusts.
+
+TECHNICAL SKILLS
+Languages: Python, SQL, R
+ML: scikit-learn, TensorFlow, PyTorch, NLP, LLMs
+Data: Snowflake, Spark, Airflow, Pandas, NumPy, AWS SageMaker
+Visualization: Tableau, Power BI
+Practices: experimentation, model evaluation, feature engineering, ETL
+
+PROJECT EXPERIENCE
+Patient Readmission Model
+Ascension Health | 2022 - Present
+Trained a gradient-boosted readmission model on 4.1M encounters, lifting recall at 10% precision by
+23 points.
+Shipped scoring as a SageMaker endpoint consumed directly by case-management workflows.
+
+Demand Forecasting Pipeline
+H-E-B | 2020 - 2022
+Built an Airflow and Spark pipeline forecasting weekly demand for 3,400 SKUs with 8.6% MAPE.
+Replaced manual Excel planning and saved an estimated 1,900 analyst hours per quarter.
+
+Voice-of-Customer NLP
+Dell Technologies | 2018 - 2020
+Clustered 260K support transcripts with NLP embeddings to surface 14 recurring defect themes.
+Automated Tableau reporting for product and support leadership.
+
+EDUCATION
+M.S. Statistics, University of Texas at Austin | 2018
